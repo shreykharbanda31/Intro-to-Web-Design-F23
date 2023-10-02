@@ -4,14 +4,14 @@ Holder for my Fall 2023 notes and assignments
 
 ## Assignments
 
-[HTML](index.html)
-[CSS](index.html)
-[Raster Graphics]
-[Vector Graphics]
-[Page Layout]
-[Responsive Design]
-[JavaScript]
-[Final Project]
+* [HTML](index.html)
+* [CSS](index.html)
+* [Raster Graphics]
+* [Vector Graphics]
+* [Page Layout]
+* [Responsive Design]
+* [JavaScript]
+* [Final Project]
 
 ## Published Website
 
