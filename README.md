@@ -6,7 +6,7 @@ Holder for my Fall 2023 notes and assignments
 
 * [HTML](index.html)
 * [CSS](index.html)
-* [Raster Graphics]
+* [Raster Graphics](images/index.html)
 * [Vector Graphics]
 * [Page Layout]
 * [Responsive Design]
