@@ -1,0 +1,98 @@
+
+      body {
+        background-color: black;
+        font-size: x-large;
+        padding: 25px;
+        color: white;
+        line-height: 2;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+      h1 {
+        color: wheat;
+        text-align: center;
+      }
+
+      a:link {
+          color: lightcoral;
+      }
+
+      a:visited {
+          color: #f140f1; 
+      }
+
+      a:hover {
+          color: #00cc00; 
+      }
+
+      a:active {
+          color: #aeaeff; 
+      }
+
+      svg {
+            display: block;
+            margin: 0 auto;
+        }
+
+      .cup-body{
+        fill: rgb(250, 241, 241);
+        stroke: black;
+      }
+
+      .cup-liquid{
+        fill: rgb(102, 51, 0);
+      }
+
+      .straw{
+        fill: black;
+        stroke: white;
+      }
+
+      .ice-cubes {
+        fill: #b0e0e6;
+        stroke: #3ad4e9;
+      }
+
+      text {
+        font-size: larger;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        fill: white;
+      }
+
+      .cup-label{
+        font-family: fantasy;
+        fill: lightgoldenrodyellow;
+        font-size: small;
+        font-weight: 800;
+      }
+
+      .cup-design{
+        font-weight: 800;
+        fill: black;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      .ice-cubes:hover{
+        opacity: 0.4;
+        stroke: black;
+        stroke-width: 3pt;
+      }
+
+      .straw:hover{
+        opacity: 0.4;
+      }
+
+      .ice-cubes:active{
+        fill: darkblue;
+      }
+
+      .straw:active{
+        fill: peachpuff;
+      }
+
+
+      .lid-design{
+        fill: yellow;
+        stroke: black;
+        stroke-width: 0.6pt;
+      }
