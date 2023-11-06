@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            svg {
+                    display: block;
+                    margin: 0 auto;
+                    background: black;
+                }
+            .cup-body{
+                fill: rgb(250, 241, 241);
+                stroke: black;
+            }
+
+            .cup-liquid{
+                fill: rgb(102, 51, 0);
+            }
+
+            .straw{
+                fill: black;
+                stroke: white;
+            }
+
+            .ice-cubes {
+                fill: #b0e0e6;
+                stroke: #3ad4e9;
+            }
+
+            text {
+                font-size: larger;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                fill: white;
+            }
+
+            .cup-label{
+                font-family: fantasy;
+                fill: lightgoldenrodyellow;
+                font-size: small;
+                font-weight: 800;
+            }
+
+            .cup-design{
+                font-weight: 800;
+                fill: black;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            .ice-cubes:hover{
+                opacity: 0.4;
+                stroke: black;
+                stroke-width: 3pt;
+            }
+
+            .straw:hover{
+                opacity: 0.4;
+            }
+
+            .ice-cubes:active{
+                fill: darkblue;
+            }
+
+            .straw:active{
+                fill: peachpuff;
+            }
+
+
+            .lid-design{
+                fill: yellow;
+                stroke: black;
+                stroke-width: 0.6pt;
+            }
+        </style>
+    </defs>
+      <title>Shrey's Coffee Tumbler containing Iced Cold Brew with Oat Milk</title>
+      <circle class = "cup-body" cx="100" cy="100" r="50"/>
+      <rect class = "cup-body" x="50" y="100" width="100" height="170"/>
+      <rect class = "cup-liquid" x="50" y="140" width="100" height="130"/>
+      <text x="85" y="300">SK</text>
+      <text class = "cup-design" x="55" y="135">♔ ☼</text>
+      <text class = "cup-design" x="71" y="120">☻</text>
+      <text class = "cup-design" x="115" y="120">☻</text>
+      <text class = "cup-design" x="105" y="135">☼ ♔</text>
+      <text class = "cup-label" x="51" y="160">$hrey's - ©offee</text>
+      <polygon points="80,78 85,65 90,78 77,70 93,70 80,78" class="lid-design"/>
+      <polygon points="110,88 115,75 120,88 107,80 123,80 110,88" class="lid-design"/>
+      <a href="https://www.youtube.com/watch?v=wIn8kEjCa4s&amp;ab_channel=SquintScience">
+        <polygon points="105,0 115,0 95,260 85,260" class="straw"/>
+      </a>
+      <a href="https://www.sciencefocus.com/science/why-does-ice-float-on-water">
+        <rect x="60" y="175" width="20" height="20" class = "ice-cubes"/>
+        <rect x="90" y="175" width="20" height="20" class = "ice-cubes"/>
+        <rect x="118" y="175" width="20" height="20" class = "ice-cubes"/>
+        <rect x="60" y="205" width="20" height="20" class = "ice-cubes"/>
+        <rect x="90" y="205" width="20" height="20" class = "ice-cubes"/>
+        <rect x="120" y="205" width="20" height="20" class = "ice-cubes"/>
+        <rect x="60" y="235" width="20" height="20" class = "ice-cubes"/>
+        <rect x="90" y="235" width="20" height="20" class = "ice-cubes"/>
+        <rect x="120" y="235" width="20" height="20" class = "ice-cubes"/>
+      </a>
+</svg>
