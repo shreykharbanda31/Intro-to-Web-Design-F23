@@ -1,0 +1,403 @@
+@font-face {
+    font-family: 'MondayFont';
+    src: url('assets/fonts/Kanit/Kanit-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+@font-face {
+    font-family: 'TuesdayFont';
+    src: url('assets/fonts/Poppins/Poppins-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+@font-face {
+    font-family: 'WednesdayFont';
+    src: url('assets/fonts/Lato/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+@font-face {
+    font-family: 'ThursdayFont';
+    src: url('assets/fonts/Merriweather/Merriweather-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+@font-face {
+    font-family: 'FridayFont';
+    src: url('assets/fonts/Noto_Sans/NotoSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+@font-face {
+    font-family: 'SaturdayFont';
+    src: url('assets/fonts/Nunito/static/Nunito-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+@font-face {
+    font-family: 'SundayFont';
+    src: url('assets/fonts/Ubuntu/Ubuntu-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+@font-face {
+    font-family: 'FooterFont';
+    src: url('assets/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2{
+    font-size: 1.6em;
+    text-align: center;
+}
+
+body {
+    font-family: 'MondayFont', sans-serif;
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    width: auto; 
+}
+
+.centered-image img {
+    max-width: 90%; 
+    margin-top: 0;
+}
+
+h1{
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.3em;
+    margin-top: 0.5em;
+}
+
+
+h3{
+    margin-top: 0.5em;
+}
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple; 
+}
+
+a:hover {
+    color: blue; 
+}
+
+a:active {
+    color: brown; 
+}
+
+.swe-about {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+    row-gap: 2em;
+    align-items: flex-start;
+}
+
+.grid-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.tool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.personal-opinion {
+    margin: 3em;
+}
+
+.day {
+    display: block;
+    text-align: center;
+    margin: 2em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    }
+
+.engineers{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2em;
+    row-gap: 0.2em;
+}
+
+.text p{
+    margin-top: 1em;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.software{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+}
+
+.productive {
+    display: block;
+    text-align: center;
+    margin: 2em;
+}
+
+#fav-btn {
+    margin: 2em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(222, 201, 173);
+    color: white;
+    height: auto;
+    font-size: 1.1em;
+    margin-top: 1.3em;
+    margin-bottom: 2em;
+}
+
+#menu-button {
+    display: none;
+}
+
+.menu-item {
+    margin-right: 2em;
+    cursor: pointer;
+    padding: 0.3em;
+}
+
+img{
+    margin: 1.5em;
+    align-self: center;
+}
+
+#opinionated-image {
+    transition: src 0.3s ease-in-out;
+    
+}
+
+#real-reason-btn, #zucker-btn, #fav-btn{
+    background-color: rgb(222, 201, 173);
+    color: black;
+    padding: 0.3em 0.6em;
+    font-size: 1em;
+    font-family: 'FooterFont';
+    width: fit-content;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#real-reason-btn:hover, #zucker-btn:hover, #fav-btn:hover{
+    background-color: rgb(222, 201, 222);
+}
+
+ul {
+    list-style-type: square;
+    line-height: 1.5em;
+}
+
+figcaption{
+font-size: 0.2em;
+text-align: center;
+}
+
+figure img{
+    margin-bottom: 0;
+}
+
+.engineer-description{
+font-size: 1em;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+footer {
+    margin-top: 5em;
+    text-align: center;
+    font-size: 1em;
+    background-color: whitesmoke;
+    font-family: 'FooterFont', monospace;
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 1.1em;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        font-size: 1em;
+    }
+
+    #menu-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2em;
+    }
+
+    .menu-item {
+        margin-right: 0;
+    }
+
+    footer {
+        font-size: 0.2em;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    .engineers{
+        grid-template-columns: 1fr;
+    }
+
+    .engineer-description{
+        font-size: 0.9em;
+    }
+
+    ul{
+        margin: 1em;
+    }
+
+    .personal-opinion{
+        margin: 1em;
+
+    }
+
+    .text{
+        margin: 0;
+    }
+
+    .software{
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 980px) {
+    .swe-about{
+        grid-template-columns: 1fr;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: #ffffff;
+    }
+
+    h1{
+        color: aliceblue;
+    }
+
+    #menu-button{
+        fill:white;
+    }
+
+    img {
+        border: solid #ffffff;
+        border-width: 0.05em;
+    }
+
+    .menu{
+        background-color: rgb(222, 201, 173);
+    }
+
+    footer{
+        color: black;
+    }
+
+    figcaption a:visited{
+        color:rgb(222, 201, 173)
+    }
+
+    footer a:link{
+        color: black;
+    }
+
+    a:link{
+        color: #ffffff;
+    }
+
+    a:visited{
+        color: black;
+    }
+
+    a:active {
+        color: blue; 
+    }
+    
+    a:hover {
+        color: white; 
+    }
+}

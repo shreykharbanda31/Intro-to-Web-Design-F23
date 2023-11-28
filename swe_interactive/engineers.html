@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Influential Software Engineers</title>
+</head>
+
+<body>
+    <header>
+        <h1>Influential Software Engineers</h1>
+    </header>
+
+    <nav>
+        <div id = "menu-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="10%">
+                <rect width="100" height="20"></rect>
+                <rect y="30" width="100" height="20"></rect>
+                <rect y="60" width="100" height="20"></rect>
+            </svg>  
+        </div>  
+        <div class = "menu">
+        <div class = "menu-item"><a href = "index.html">Home</a></div>
+          <div class = "menu-item"><a href = "engineers.html">Influential Software Engineers</a></div>
+          <div class = "menu-item"> <a href = "software.html">Popular Software</a></div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="engineers">
+            <div class="grid-item">
+                <h2>Mark Zuckerburg</h2>
+                <figure>
+                    <img src="assets/images/zucker-forbes/zucker-forbes.webp" alt="Mark Zuckerburg" 
+                    srcset="assets/images/zucker-forbes/zucker-forbes_240.webp 240w,
+                    assets/images/zucker-forbes/zucker-forbes_480.webp 480w,
+                    assets/images/zucker-forbes/zucker-forbes_960.webp 960w,
+                    assets/images/zucker-forbes/zucker-forbes_1440.webp 1440w
+                    "
+                    id = "zucker-image"
+                    sizes="(max-width: 800px) 40vw, (max-width: 1200px) 20vw, 16vw">
+                    <figcaption>Photo by <a href="https://www.forbes.com/profile/mark-zuckerberg/?sh=2bbe58793e06">MARTIN SCHOELLER FOR FORBES.</a></figcaption>
+                </figure>                
+                <div class = "engineer-description" id = "zucker-text">Zuckerburg is the current CEO of Meta Platforms and helped cofound Facebook. Zuckerburg was a genius in software engineering right from his childhood. He built a local area network when he was in high school.</div>
+                <button id="zucker-btn">Wanna know a fun fact about Zucker?</button>
+            </div>
+            <div class="grid-item">
+                <h2>Paul Buchheit</h2>
+                <figure>
+                    <img src="assets/images/paul-ycombinator/paul-ycombinator.jpeg" alt="Paul Buchheit" 
+                    srcset="assets/images/paul-ycombinator/paul-ycombinator_240.jpeg 240w,
+                    assets/images/paul-ycombinator/paul-ycombinator_480.jpeg 480w,
+                    assets/images/paul-ycombinator/paul-ycombinator_1440.jpeg 1440w,
+                    assets/images/paul-ycombinator/paul-ycombinator_2000.jpeg 2000w
+                    "
+                    sizes="(max-width: 800px) 40vw, (max-width: 1200px) 20vw, 16vw">
+                    <figcaption>Photo by <a href="https://ycombinator.com/people/paul-buchheit">Y Combinator.</a></figcaption>
+                </figure>  
+                <div class = "engineer-description">Buchheit invented Gmail while he worked at Google. Gmail was in beta mode for five years and is now one of the top web-based email services used by people.</div> 
+            </div>
+            <div class="grid-item">
+                <h2>Max Levchin</h2>
+                <figure>
+                    <img src="assets/images/max-fortune/max-fortune.webp" alt="Max Levchin" 
+                    srcset="assets/images/max-fortune/max-fortune_240.webp 240w,
+                    assets/images/max-fortune/max-fortune_480.webp 480w,
+                    assets/images/max-fortune/max-fortune_960.webp 960w,
+                    assets/images/max-fortune/max-fortune_2900.webp 2900w"
+                    sizes="(max-width: 800px) 40vw, (max-width: 1200px) 20vw, 16vw">
+                    <figcaption>Photo by <a href="https://fortune.com/2015/05/06/affirm-raises-275-million/">DAVID PAUL MORRIS — BLOOMBERG/GETTY IMAGES.</a></figcaption>
+                </figure>  
+                <div class = "engineer-description">Levchin was responsible for co-founding PayPal. He contributed to prevent fraud on a fintech platform called PayPal and worked on the human CAPTCHA test.</div> 
+            </div>
+            <div class="grid-item">
+                <h2>Pierre Omidyar</h2>
+                <figure>
+                    <img src="assets/images/pierre-forbes/pierre-forbes.webp" alt="Pierre Omidyar" 
+                    srcset="assets/images/pierre-forbes/pierre-forbes_240.webp 240w,
+                    assets/images/pierre-forbes/pierre-forbes_960.webp 960w"
+                    sizes="(max-width: 800px) 40vw, (max-width: 1200px) 20vw, 16vw">
+                    <figcaption>Photo by <a href="https://www.forbes.com/profile/pierre-omidyar/?sh=5987b52e66da">MICHELE CLEMENT/THE FORBES COLLECTION.</a></figcaption>
+                </figure> 
+                <div class="engineer-description">Omidyar is the founder of eBay and is one of the greatest tech entrepreneurs. Omidyar first launched an online service called Auction Web and it was named eBay in the later stages of his life.</div>
+            </div>
+        </section>
+        <section class="day">
+            <p id="day-text">is your lucky day! You're viewing this page in my favorite font: </p>
+    </section>
+    </main>
+
+    <footer>
+        &copy; 2023. Created with 😎 By <a href="mailto:shrey.kharbanda@nyu.edu">Shrey Kharbanda</a>
+    </footer>
+
+    <script src="script.js"></script> 
+
+</body>
+
+</html>

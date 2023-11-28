@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <h1>Software Engineering</h1>
+    </header>
+    <nav>
+        <div id = "menu-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="10%">
+                <rect width="100" height="20"></rect>
+                <rect y="30" width="100" height="20"></rect>
+                <rect y="60" width="100" height="20"></rect>
+            </svg>  
+        </div>        
+        <div class = "menu">
+            <div class = "menu-item"><a href = "index.html">Home</a></div>
+            <div class = "menu-item"><a href = "engineers.html">Influential Software Engineers</a></div>
+            <div class = "menu-item"> <a href = "software.html">Popular Software</a></div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="centered-image">
+            <img src="assets/images/swe-overall/swe-overall.jpeg" 
+            srcset="assets/images/swe-overall/swe-overall_240.jpeg 240w,
+            assets/images/swe-overall/swe-overall_480.jpeg 480w,
+            assets/images/swe-overall/swe-overall_960.jpeg 960w,
+            assets/images/swe-overall/swe-overall_1440.jpeg 1440w,
+            assets/images/swe-overall/swe-overall_9000.jpeg 9000w
+            " 
+            id = "main-image"
+            sizes="(max-width: 480px) 90vw,
+            (max-width: 1440px) 50vw, 25vw
+            "
+            alt="laptop with lines of code">
+        </div>
+        <section class="swe-about">
+            <div class="grid-item">
+                <h2>What is Software Engineering?</h2>
+                <img src="assets/images/swe-image/swe-image.jpg" 
+                srcset="assets/images/swe-image/swe-image_240.jpeg 240w,
+                assets/images/swe-image/swe-image_480.jpeg 480w,
+                assets/images/swe-image/swe-image_960.jpeg 960w,
+                assets/images/swe-image/swe-image_1440.jpeg 1440w,
+                assets/images/swe-image/swe-image_12000.jpeg 12000w
+                "
+                sizes="(max-width: 480px) 50vw, (max-width: 1200px) 20vw, 17vw"
+                alt="software engineers coding" >
+                <div>Software Engineering (SWE), in computer science, entails a lifecycle of different phases including design, development, testing, and maintenance. As designers and developers, software engineers work on applications, platforms, computer games, operating systems, network control systems, middleware, and so much more!</div> 
+            </div>
+            <div class="grid-item">
+                <h2> SWE Tasks and Responsibilities</h2>
+                <img src="assets/images/desk-setup-swe/desk-setup-swe.jpeg" 
+                srcset="assets/images/desk-setup-swe/desk-setup-swe_240.jpeg 240w,
+                assets/images/desk-setup-swe/desk-setup-swe_480.jpeg 480w,
+                assets/images/desk-setup-swe/desk-setup-swe_960.jpeg 960w,
+                assets/images/desk-setup-swe/desk-setup-swe_1440.jpeg 1440w,
+                assets/images/desk-setup-swe/desk-setup-swe_13000.jpeg 13000w
+                "
+                sizes="(max-width: 480px) 70vw, (max-width: 1200px) 30vw, 25vw"
+                alt="software engineers coding on a desk">
+                <ul>
+                    <li>Designing and maintaining systems or applications</li>
+                    <li>Software Testing</li>
+                    <li>Optimizing different software in terms of speed and scalability</li>
+                    <li>Ensuring platform compatibility</li>
+                    <li>Documentation</li>
+                    <li>Contributing towards software release and updates</li>
+                    <li>Collaborating with other teams such as development, data science, marketing tech </li>                       
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h2>Challenges Faced by Software Engineers</h2>
+                <div class="text"><p>From time constraints to evolving project requirements, software engineers are faced with several challenges in their day-to-day tasks. Production timelines are sometimes affected by factors that are beyond the engineers’ control and are often required to adapt to any new changes enforced by their managers. At the same time, engineers have to keep upgrading the code base as the tech stack becomes outdated in comparison to new technologies populating in the market. Engineers also have to comply with security and data privacy regulations to keep their code base consistent and safe from potential vulnerabilities.</p></div>
+            </div>
+        </section>
+        <section class="personal-opinion">
+            <div class="content">
+                <div class="text">
+                    <h2>Why do I love Software Engineering?</h2>
+                    <p id = "opinion-body">I believe that Software Engineering allows me to exercise my creative and logical side in computer science. I have the ability to solve complex, real-world problems with simple and specific solutions. I would love to be at the forefront of innovation with Software Engineering. In this field, continuous learning is a key aspect to keep yourself updated with ongoing trends and collaboration with others enhances the experience and product strategy. I would love to make a positive impact on society and as a software engineer, I can become a part of a global community of professionals. I am interested in developing applications, interfaces, platforms, and communicate with both technical and non-technical stakeholders to enliven the product and provide the best user experience. A good UX is important to increase customer retention and create a positive brand image. A user-friendly interface is important to ensure cost-effectiveness and provide an edge among other competitors in the market. With an entrepreneurial spirit, I am excited to contribute to the future of software engineering by innovating and solving complex issues to create new outlets and products.</p>
+                    <button id="real-reason-btn">Nah, but find out the real reason here 🤨</button>
+                </div>
+                <img src="assets/images/shrey-github/shrey-github.png" 
+                srcset="assets/images/shrey-github/shrey-github_240.png 240w,
+                assets/images/shrey-github/shrey-github_480.png 480w,
+                assets/images/shrey-github/shrey-github_960.png 960w,
+                assets/images/shrey-github/shrey-github_1300.png 1300w,
+                assets/images/shrey-github/shrey-github_1440.png 14400w
+                "
+                id = "opinianated-image"
+                sizes="(max-width: 480px) 70vw, (max-width: 1200px) 20vw, 10vw"
+                alt="Shrey's Github Page">
+            </div>
+        </section>
+        <section class="day">
+                <p id="day-text">is your lucky day! You're viewing this page in my favorite font: </p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023. Created with 😎 By <a href="mailto:shrey.kharbanda@nyu.edu">Shrey Kharbanda</a>
+    </footer>
+
+    <script src="script.js"></script> 
+
+</body>
+
+</html>

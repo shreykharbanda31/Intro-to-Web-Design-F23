@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Popular Software</title>
+</head>
+
+<body>
+    <header>
+        <h1>Popular Software</h1>
+    </header>
+
+    <nav>
+        <div id = "menu-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="10%">
+                <rect width="100" height="20"></rect>
+                <rect y="30" width="100" height="20"></rect>
+                <rect y="60" width="100" height="20"></rect>
+            </svg>  
+        </div>  
+        <div class = "menu">
+        <div class = "menu-item"><a href = "index.html">Home</a></div>
+          <div class = "menu-item"><a href = "engineers.html">Influential Software Engineers</a></div>
+          <div class = "menu-item"> <a href = "software.html">Popular Software</a></div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="software">
+            <div class="tool-item">
+                <h2>Design Tools</h2>
+                <h3>Adobe Photoshop</h3>
+                <img src="assets/images/adobe-photoshop/adobe-photoshop.jpeg" alt="adobe photoshop logo" 
+                srcset="assets/images/adobe-photoshop/adobe-photoshop_240.jpeg 240w,
+                assets/images/adobe-photoshop/adobe-photoshop_480.jpeg 480w,
+                assets/images/adobe-photoshop/adobe-photoshop_960.jpeg 960w,
+                assets/images/adobe-photoshop/adobe-photoshop_1440.jpeg 1440w,
+                assets/images/adobe-photoshop/adobe-photoshop_19000.jpeg 19000w"
+                id = "adobe-image"
+                sizes="(max-width: 800px) 40vw, (max-width: 1200px) 30vw, 25vw">               
+                <h3>Figma</h3>
+                <img src="assets/images/figma/figma.jpeg" alt="figma logo" 
+                srcset="assets/images/figma/figma_240.jpeg 240w,
+                assets/images/figma/figma_480.jpeg 480w,
+                assets/images/figma/figma_960.jpeg 960w,
+                assets/images/figma/figma_1440.jpeg 1440w,
+                assets/images/figma/figma_7200.jpeg 7200w" 
+                sizes="(max-width: 800px) 40vw, (max-width: 1200px) 30vw, 25vw">                
+                <h3>Procreate</h3>
+                <img src="assets/images/procreate.jpeg" 
+                srcset="assets/images/procreate/procreate_240.jpeg 240w,
+                assets/images/procreate/procreate_480.jpeg 480w,
+                assets/images/procreate/procreate_960.jpeg 960w,
+                assets/images/procreate/procreate_1440.jpeg 1440w,
+                assets/images/procreate/procreate_11000.jpeg 11000w" 
+                alt="procreate logo" sizes="(max-width: 800px) 40vw, (max-width: 1200px) 30vw, 25vw">                
+                <h3>Canva</h3>
+                <img src="assets/images/canva/canva.jpeg" 
+                srcset="assets/images/canva/canva_240.jpeg 240w,
+                assets/images/canva/canva_480.jpeg 480w,
+                assets/images/canva/canva_960.jpeg 960w,
+                assets/images/canva/canva_1440.jpeg 1440w,
+                assets/images/canva/canva_8100.jpeg 81000w" 
+                alt="canva logo" sizes="(max-width: 800px) 40vw, (max-width: 1200px) 20vw, 15vw">                
+            </div>
+            <div class="tool-item">
+                <h2>Organisational Tools</h2>
+                <h3>Google Suite</h3>
+                <img src="assets/images/google-suite/google-suite.jpeg"
+                srcset="assets/images/google-suite/google-suite_240.jpeg 240w,
+                assets/images/google-suite/google-suite_480.jpeg 480w,
+                assets/images/google-suite/google-suite_960.jpeg 960w,
+                assets/images/google-suite/google-suite_1440.jpeg 1440w,
+                assets/images/google-suite/google-suite_5000.jpeg 5000w"  
+                alt="google suite logo" sizes="(max-width: 800px) 40vw, (max-width: 1200px) 20vw, 15vw">                
+                <h3>Slack</h3>
+                <img src="assets/images/slack/slack.jpeg" 
+                srcset="assets/images/slack/slack_240.jpeg 240w,
+                assets/images/slack/slack_480.jpeg 480w,
+                assets/images/slack/slack_960.jpeg 960w,
+                assets/images/slack/slack_1440.jpeg 1440w,
+                assets/images/slack/slack_11000.jpeg 11000w" 
+                alt="slack logo" sizes="(max-width: 800px) 40vw, (max-width: 1200px) 30vw, 25vw">                
+                <h3>Notion</h3>
+                <img src="assets/images/notion/notion.jpeg" 
+                srcset="assets/images/notion/notion_240.jpeg 240w,
+                assets/images/notion/notion_480.jpeg 480w,
+                assets/images/notion/notion_960.jpeg 960w,
+                assets/images/notion/notion_1440.jpeg 1440w,
+                assets/images/notion/notion_7200.jpeg 7200w" 
+                alt="notion logo" sizes="(max-width: 800px) 40vw, (max-width: 1200px) 30vw, 25vw">               
+                <h3>Asana</h3>
+                <img src="assets/images/asana/asana.jpeg" 
+                srcset="assets/images/asana/asana_240.jpeg 240w,
+                assets/images/asana/asana_480.jpeg 480w,
+                assets/images/asana/asana_960.jpeg 960w,
+                assets/images/asana/asana_1440.jpeg 1440w,
+                assets/images/asana/asana_19000.jpeg 19000w" 
+                alt="asana logo" sizes="(max-width: 800px) 40vw, (max-width: 1200px) 30vw, 25vw">                
+            </div>
+        </section>
+        <section class = "productive">
+            <p id="fav-text">These tools help me in increasing my productivity and efficiency every day.</p>
+            <button id="fav-btn">Wanna know my favorite tool here?</button>
+        </section>
+        <section class="day">
+            <p id="day-text">is your lucky day! You're viewing this page in my favorite font: </p>
+    </section>
+    </main>
+
+    <footer>
+        &copy; 2023. Created with 😎 By <a href="mailto:shrey.kharbanda@nyu.edu">Shrey Kharbanda</a>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+
+</html>

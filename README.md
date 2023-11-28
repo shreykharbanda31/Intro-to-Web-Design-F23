@@ -10,7 +10,7 @@ Holder for my Fall 2023 notes and assignments
 * [Vector Graphics](index.html)
 * [Page Layout](software_engineering/index.html)
 * [Responsive Design](software_engineering/index.html)
-* [JavaScript]
+* [JavaScript](swe_interactive/index.html)
 * [Final Project]
 
 ## Published Website
