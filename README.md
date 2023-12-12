@@ -11,7 +11,7 @@ Holder for my Fall 2023 notes and assignments
 * [Page Layout](software_engineering/index.html)
 * [Responsive Design](software_engineering/index.html)
 * [JavaScript](swe_interactive/index.html)
-* [Final Project]
+* [Final Project](portfolio/index.html)
 
 ## Published Website
 

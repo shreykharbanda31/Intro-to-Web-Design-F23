@@ -1,0 +1,474 @@
+@font-face {
+    font-family: 'BodyFont';
+    src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+@font-face {
+    font-family: 'FooterFont';
+    src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #E0EAF3;
+}
+
+h2{
+    font-size: 1.6em;
+    text-align: center;
+}
+
+body {
+    font-family: 'BodyFont', sans-serif;
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    width: auto; 
+}
+
+.centered-image img {
+    max-width: 20%; 
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.3em;
+}
+
+form {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15vh;
+    margin-top: 2em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+  }
+
+#about, #skills-overall, #cinematic{
+    background-color: black;
+    color: #ffffff;
+    padding: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+}
+
+.about-text, .school-desc {
+    line-height: 2em;
+}
+
+.skills-text, .cinematic-text {
+    margin: auto;
+}
+
+#welcome, #schools-overall, #experiences-overall {
+    background-color: #E0EAF3;
+    margin-bottom: 12vh;
+    padding: 2vh;
+}
+
+.schools {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+}
+
+.experiences {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 4em;
+    column-gap: 4em;
+    margin: 2em;
+}
+
+.experience img {
+    max-width: 20%;
+}
+
+.school, .experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.school img {
+    max-width: 9%;
+    margin-right: 2em;
+}
+
+.experience img {
+    max-width: 20%;
+    margin-right: 2em;
+}
+
+.school-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    row-gap: 1em;
+}
+
+.experience-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 1em;
+}
+
+video {
+    max-width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    align-self: center;
+    font-size: 1.3em;
+}
+
+.social-media {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2em;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-icon i{
+    color: #F86642;
+    font-size: 1.5em;
+}
+
+.social-icon p {
+    margin-left: 1em;
+}
+
+body{
+    min-height: 100vh;
+}
+
+h3{
+    margin-top: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #F86642; 
+}
+
+a:hover {
+    color: #76b5ec;
+}
+
+a:active {
+    color: white; 
+}
+
+header {
+    padding: 2vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    height: auto;
+    font-size: 1.1em;
+    margin-top: 1.3em;
+    margin-bottom: 2em;
+}
+
+.sub-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#menu-button {
+    display: none;
+}
+
+.menu-item {
+    margin-right: 2em;
+    cursor: pointer;
+    padding: 0.3em;
+}
+
+.menu a:link {
+    color: black;
+}
+
+.menu a:visited {
+    color: black;
+}
+
+.menu-item a:hover{
+    font-weight: bolder;
+    color: #F86642;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: black;
+    background-color: #F86642;
+    border-radius: 0.5em;
+    font-weight: bold;
+  }
+
+img{
+    margin: 1.5em;
+    align-self: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+.skill  img {
+    max-width: 55%;
+}
+
+ul {
+    list-style-type: square;
+    line-height: 1.5em;
+}
+
+figcaption{
+font-size: 0.2em;
+text-align: center;
+}
+
+figure img{
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    background-color: #F86642;
+    font-family: 'FooterFont', monospace;
+    padding: 1em;
+}
+
+footer a:link {
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: black;
+}
+
+p {
+    font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+
+    .menu {
+        justify-content: space-between;
+    }
+
+.menu .sub-menu {
+        display: none;
+        flex-direction: column;
+        font-size: 1em;
+    }
+
+    .centered-image img {
+        max-width: 50%;
+    }
+
+    .contact-button {
+        padding: 0.5em;
+    }
+
+    #about {
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3{
+        font-size: 1.1em;
+    }
+
+    #skills-overall .skills {
+        grid-template-columns: 1fr;
+    }
+
+    #menu-button{
+        display: block;
+        text-align: center;
+    }
+
+    .experiences {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        font-size: 0.2em;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    #welcome img {
+        max-width: 40%;
+    }
+
+    .menu {
+        font-size: 0.9em;
+    }
+
+    .menu .contact-button {
+        font-size: 0.9em;
+    }
+
+    #about {
+        padding: 5vh;
+    }
+
+    .skills {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #skills-overall, #cinematic {
+        grid-template-columns: 1fr;
+        row-gap: 3em;
+    }
+
+    .schools {
+        row-gap: 4em;
+    }
+
+    .experience img {
+        max-width: 30%;
+    }
+
+    .school img {
+        max-width: 20%;
+    }
+
+}
+
+@media (max-width: 980px) {
+
+    h1 {
+        font-size: 2.3em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .social-media {
+        grid-template-columns: 1fr;
+    }
+   
+}
+
+@media (prefers-color-scheme: dark) {
+    
+    footer{
+        color: white;
+    }
+
+    .contact-button {
+        color: white;
+    }
+
+    .menu svg rect {
+        fill: black;
+        border: none;
+    }
+
+    footer a:link{
+        color: white;
+    }
+ 
+    .about-text a:visited{
+        color: #f17e61;
+    }
+
+    .about-text a:hover{
+        color: #E0EAF3;
+    }
+
+    footer a:hover {
+        color: black;
+    }
+}

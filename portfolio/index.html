@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="icon" href="./assets/images/favicon-32x32.png" type="image/png">
+        <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>     
+                <div class = "menu">
+                        <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="27" y="30" width="6" height="12" fill="#76b5ec"/>
+                            <circle cx="25" cy="20" r="12" fill="red" />
+                            <circle cx="35" cy="20" r="12" fill="red" />
+                            <circle cx="30" cy="12" r="12" fill="red" />
+                        </svg> 
+                    <div class = "sub-menu">
+                        <div class = "menu-item"><a href = "index.html">ABOUT</a></div>
+                        <div class = "menu-item"><a href = "education.html">EDUCATION</a></div>
+                        <div class = "menu-item"> <a href = "experience.html">EXPERIENCE</a></div>
+                    </div>
+                        <button class="contact-button" type="button" id = "contact-btn">CONTACT ME</button>
+                </div>
+                <div id = "menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="10%">
+                        <rect width="100" height="20"></rect>
+                        <rect y="30" width="100" height="20"></rect>
+                        <rect y="60" width="100" height="20"></rect>
+                    </svg>  
+            </div>  
+            </nav>
+        </header>
+        <main>
+        <section id="welcome">
+            <h1 style="color: black">Hello,</h1><h1 style="color: #F86642"> I'm Shrey.</h1>
+            <div class = "centered-image">
+            <img  src = "assets/images/shrey_profilepic/shrey_profilepic.jpeg"  alt = "Shrey Kharbanda's Profile Picture"
+            srcset="assets/images/shrey_profilepic/shrey_profilepic_240.jpeg 240w,
+            assets/images/shrey_profilepic/shrey_profilepic_480.jpeg 480w,
+            assets/images/shrey_profilepic/shrey_profilepic_960.jpeg 960w,
+            assets/images/shrey_profilepic/shrey_profilepic_1440.jpeg 1440w,
+            assets/images/shrey_profilepic/shrey_profilepic._4600jpeg 4600w
+            " 
+            id = "main-image"
+            sizes="(max-width: 480px) 90vw,
+            (max-width: 1440px) 50vw, 25vw">  
+            </div>
+        </section>  
+        <section id ="about">
+            <div class = "about-text">
+        <p>I am currently an undergraduate student at <a href = "https://engineering.nyu.edu/">New York University's School of Engineering - NYU Tandon</a>, 
+                pursuing a BS of Computer Science along with two Minors in Web Programming and Applications and Mathematics. I am really passionate about NLP, Web Dev, Android, iOS, and Software Dev in particular. I direct NYU's premier hackathon club, <a href = "https://hacknyu.org/">HackNYU</a>, 
+                actively research @ NYU's mLAB and develop @ IoT Inspector under Prof. Huang. I love baking, watching romantic comedies, visiting adventure parks, and am recently on a hunt for 
+                finding the best Tiramisu in NYC.</p>
+            </div>
+            <div class = "contact">
+                <h3>CONTACT ME</h3>
+                <div class="social-media">
+                    <div class = "social-icon">
+                        <i class = "fa fa-envelope"></i> 
+                        <p><a href = "mailto:shrey.kharbanda@nyu.edu">shrey.kharbanda@nyu.edu</a></p>
+                    </div>
+                    <div class = "social-icon">
+                        <i class = "fa fa-instagram"></i>
+                        <p><a href = "https://www.instagram.com/shrey_kharbanda">@shrey_kharbanda</a></p>
+                    </div>
+                    <div class = "social-icon">
+                        <i class = "fa fa-github"></i>
+                        <p><a href = "https://github.com/shreykharbanda31">@shreykharbanda31</a></p>
+                    </div>
+                    <div class = "social-icon">
+                        <i class = "fa fa-linkedin-square"></i>
+                        <p><a href = "https://www.linkedin.com/in/shrey-kharbanda/"> Shrey Kharbanda </a></p>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        </main>
+    <footer>
+     <p>&copy; 2023. Made With ☻ By <a href="mailto:shrey.kharbanda@nyu.edu">Shrey Kharbanda</a></p>
+    </footer>
+    <script src="script.js"></script> 
+    </body>
+</html>
