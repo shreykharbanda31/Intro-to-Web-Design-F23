@@ -15,4 +15,4 @@ Holder for my Fall 2023 notes and assignments
 
 ## Published Website
 
-[i6.cims.nyu.edu/~sk10101](https://i6.cims.nyu.edu/~sk10101/)
+[[https://shreykharbanda31.github.io/Intro-to-Web-Design-F23/](https://shreykharbanda31.github.io/Intro-to-Web-Design-F23/))
